@@ -6,16 +6,20 @@ h1{
  
     font-size: 30px;
 }
+h2{
+    font-size: 30px;
+}
 .color-aqua{
     color:rgb(208, 51, 51);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     padding-left: 5%;
     width: 50%;
+   
 }
 .half-width img{
     width: 80%;
@@ -37,4 +41,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.color-korbo{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+#full-stack{
+    border-left:7px solid blue;
+
+
+}
+#baby-web{
+    border-left:7px solid red;
+
+}
+footer p{
+    text-align: center;
 }
